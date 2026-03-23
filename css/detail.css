@@ -38,19 +38,22 @@ body {
 }
 /* 카드박스 */
 .detaile-box {
+  /* display: block; */
   margin-bottom: 20px;
 }
-.detaile-box h2{
-    font-size: 16px;
-    margin-bottom: 10px;
-    border-left:  4px solid #7592fc;
-    padding-left: 10px;
+.detaile-box h2 {
+  font-size: 16px;
+  /* display: block; */
+  margin-bottom: 10px;
+  border-left: 4px solid #7592fc;
+  padding-left: 10px;
 }
-.detaile-box p, .detaile-box li{
-    font-size: 14px;
-    color: #555;
-    line-height: 1.6;
+.detaile-box p,
+.detaile-box li {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
 }
-.detaile-box ul{
-    padding-left: 15px;
+.detaile-box ul {
+  padding-left: 15px;
 }

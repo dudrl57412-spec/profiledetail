@@ -52,12 +52,33 @@ section {
   padding: 20px 0px;
 }
 /* 이미지 */
-.profile-img {
+.member1 .profile-img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 5px 15px 30px rgba(173, 216, 230, 0.8);
+  box-shadow: 5px 15px 30px rgba(166, 230, 252, 0.8);
+}
+.member2 .profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 5px 15px 30px rgba(131, 252, 167, 0.8);
+}
+.member3 .profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 5px 15px 30px rgba(255, 185, 238, 0.8);
+}
+.member4 .profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 5px 15px 30px rgba(220, 190, 255, 0.8);
 }
 .profile-img img {
   width: 100%;
