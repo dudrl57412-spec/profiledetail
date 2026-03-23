@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+/* 멤버1 배경색 */
+body.member1 {
+  background-color: #c3fffc;
+}
+body.member2 {
+  background-color: #a1ffcc;
+}
+body.member3 {
+  background-color: #ffd0fd;
+}
+body.member4 {
+  background-color: #eec3ff;
+}
+/* 프로필카드 전체영역 */
+section {
+  width: 390px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+/* 상단 메뉴 */
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu a {
+  color: #aaa;
+  font-size: 20px;
+}
+/* 프로필 영역 */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 0px;
+}
+/* 이미지 */
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 5px 15px 30px rgba(173, 216, 230, 0.8);
+}
+.profile-img img {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.profile-img:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* 이름 */
+.profile-text h1 {
+  font-size: 22px;
+  color: #555;
+  text-align: center;
+}
+.profile-text p {
+  font-size: 12px;
+  color: #9a9a9a;
+}
+/* 더보기 버튼 */
+body.member1 .btn-view {
+  color: #fff;
+  padding: 8px 20px;
+  background: linear-gradient(45deg, #10fcf0, #7592fc);
+  border-radius: 24px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+body.member2 .btn-view {
+  color: #fff;
+  padding: 8px 20px;
+  background: linear-gradient(45deg, hsl(110, 97%, 56%), #76f1c8);
+  border-radius: 24px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+body.member3 .btn-view {
+  color: #fff;
+  padding: 8px 20px;
+  background: linear-gradient(45deg, #fd86d9, #f5007a);
+  border-radius: 24px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+body.member4 .btn-view {
+  color: #fff;
+  padding: 8px 20px;
+  background: linear-gradient(45deg, #d56cf0, #a600cf);
+  border-radius: 24px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+/* 연락처 영역 */
+.link-contact {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact {
+  width: 205px;
+}
+.contact li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+.contact li:last-child {
+  border: none;
+}
+.contact li i {
+  font-size: 14px;
+  color: #555;
+  text-shadow: 2px 2px 2px #ddd;
+}
+.contact li span {
+  font-size: 12px;
+  color: #777;
+  font-family: "Orbitron", sans-serif;
+}
+/* 멤버별 프로필 링크 만들기 */
+.others {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.others a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e9a8f3;
+  opacity: 0.4;
+  filter: saturate(0.7);
+}
+.others a:nth-of-type(1) {
+  background-color: #10fcf0;
+}
+.others a:nth-of-type(2) {
+  background-color: #55f5cd;
+}
+.others a:nth-of-type(3) {
+  background-color: #ff80df;
+}
+.others a:nth-of-type(4) {
+  background-color: #a794fd;
+}
+.others a.on {
+  opacity: 1;
+  filter: saturate(1);
+}
